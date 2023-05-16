@@ -13,6 +13,9 @@
 		5E4833F02A139C4100462FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4833EE2A139C4100462FFB /* Main.storyboard */; };
 		5E4833F22A139C4200462FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4833F12A139C4200462FFB /* Assets.xcassets */; };
 		5E4833F52A139C4200462FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4833F32A139C4200462FFB /* LaunchScreen.storyboard */; };
+		5E4833FF2A139CC100462FFB /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4833FD2A139CC100462FFB /* DemoCollectionViewCell.swift */; };
+		5E4834002A139CC100462FFB /* DemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E4833FE2A139CC100462FFB /* DemoCollectionViewCell.xib */; };
+		5E4834032A139EED00462FFB /* StackedViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4834022A139EED00462FFB /* StackedViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5E4833F12A139C4200462FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E4833F42A139C4200462FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4833F62A139C4200462FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4833FD2A139CC100462FFB /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E4833FE2A139CC100462FFB /* DemoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCollectionViewCell.xib; sourceTree = "<group>"; };
+		5E4834022A139EED00462FFB /* StackedViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		5E4833E72A139C4100462FFB /* StackedCV */ = {
 			isa = PBXGroup;
 			children = (
+				5E4834012A139ED100462FFB /* StackedViewFlowLayout */,
+				5E4833FC2A139C5100462FFB /* DemoCollectionViewCell */,
 				5E4833E82A139C4100462FFB /* AppDelegate.swift */,
 				5E4833EA2A139C4100462FFB /* SceneDelegate.swift */,
 				5E4833EC2A139C4100462FFB /* ViewController.swift */,
@@ -65,6 +73,23 @@
 				5E4833F62A139C4200462FFB /* Info.plist */,
 			);
 			path = StackedCV;
+			sourceTree = "<group>";
+		};
+		5E4833FC2A139C5100462FFB /* DemoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5E4833FD2A139CC100462FFB /* DemoCollectionViewCell.swift */,
+				5E4833FE2A139CC100462FFB /* DemoCollectionViewCell.xib */,
+			);
+			path = DemoCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		5E4834012A139ED100462FFB /* StackedViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5E4834022A139EED00462FFB /* StackedViewFlowLayout.swift */,
+			);
+			path = StackedViewFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +153,7 @@
 				5E4833F52A139C4200462FFB /* LaunchScreen.storyboard in Resources */,
 				5E4833F22A139C4200462FFB /* Assets.xcassets in Resources */,
 				5E4833F02A139C4100462FFB /* Main.storyboard in Resources */,
+				5E4834002A139CC100462FFB /* DemoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +167,8 @@
 				5E4833ED2A139C4100462FFB /* ViewController.swift in Sources */,
 				5E4833E92A139C4100462FFB /* AppDelegate.swift in Sources */,
 				5E4833EB2A139C4100462FFB /* SceneDelegate.swift in Sources */,
+				5E4833FF2A139CC100462FFB /* DemoCollectionViewCell.swift in Sources */,
+				5E4834032A139EED00462FFB /* StackedViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
